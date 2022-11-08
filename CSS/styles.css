@@ -1,0 +1,118 @@
+.menu-item {
+
+    display: inline-block;
+    margin-right: 12px;
+
+
+
+}
+
+.submenu {
+
+    display: inline-block;
+    width: 26%;
+    text-align: center;
+    margin: 0 15px;
+
+
+}
+
+img {
+    /* Para coger el max */
+    max-width: 100%;
+}
+
+.subitem {
+
+    display: inline-block;
+    background-color: transparent;
+    font-size: 15px;
+
+}
+
+
+.title {
+
+    display: inline-block;
+    width: 10%;
+    margin-left: 110px;
+    font-size: 40px;
+}
+
+.menu {
+    display: inline-block;
+    position: absolute;
+    right: 5%;
+    bottom: 94%;
+    text-decoration: none;
+    font-size: 16px;
+
+
+
+}
+
+.banner {
+    height: 500px;
+    background-color: transparent;
+    margin-bottom: 100px;
+}
+
+.image-banner {
+    width: 100%;
+    height: 100%;
+    /* cover escala sacrificando imagen y contain para no sacrificar imagen  */
+    object-fit: cover;
+    /* esta etiqueta sirve para decir de donde esta el centro de la imagen */
+    object-position: right top;
+}
+
+.menu-image {
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    text-align: center;
+
+
+
+}
+
+.footer-menu {
+
+
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+
+
+}
+
+.lista {
+
+    display: inline-block;
+
+}
+
+.enlace {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer {
+
+
+    color: black;
+    font-size: 20px;
+    margin-left: 14px;
+
+
+}
+
+body {
+    font-family: sans-serif;
+}
